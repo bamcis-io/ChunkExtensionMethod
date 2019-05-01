@@ -20,6 +20,10 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>ChunkExtensionMethod.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
+    <Description>The extension method can be used to chunk an IEnumerable into multiple lists of a specified size.</Description>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
