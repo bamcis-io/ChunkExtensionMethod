@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework><!--netstandard1.6;-->netstandard2.0<!--;net45--></TargetFramework>
-    <!--<NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>-->
+    <TargetFrameworks>netstandard1.6;netstandard2.0;net45</TargetFrameworks>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'net45' ">2.0.0</NetStandardImplicitPackageVersion>
     <RootNamespace>BAMCIS.ChunkExtensionMethod</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -15,15 +15,15 @@
     <PackageLicenseUrl>https://raw.githubusercontent.com/bamcis-io/ChunkListExtensionMethod/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Chunk List IEnumerable</PackageTags>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed target frameworks</PackageReleaseNotes>
     <Copyright>bamcis.io</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>ChunkExtensionMethod.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <Description>The extension method can be used to chunk an IEnumerable into multiple lists of a specified size.</Description>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
