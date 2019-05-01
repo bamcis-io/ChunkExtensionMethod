@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework><!--netstandard1.6;-->netstandard2.0<!--;net45--></TargetFramework>
+    <!--<NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.0</NetStandardImplicitPackageVersion>-->
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'net45' ">2.0.0</NetStandardImplicitPackageVersion>
+    <RootNamespace>BAMCIS.ChunkExtensionMethod</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Michael Haken</Authors>
+    <Company>bamcis.io</Company>
+    <PackageProjectUrl>https://github.com/bamcis-io/ChunkListExtensionMethod</PackageProjectUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/bamcis-io/ChunkListExtensionMethod</RepositoryUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/bamcis-io/ChunkListExtensionMethod/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Chunk List IEnumerable</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <Copyright>bamcis.io</Copyright>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>ChunkExtensionMethod.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+
+</Project>
